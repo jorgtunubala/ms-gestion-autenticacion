@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: autenticacion
+
+  #ldap:
+    #base-dn: dc=springframework,dc=org
+    #username: cn=admin,dc=springframework,dc=org
+    #urls: ldap://localhost:8389
+    #password: secret
+
+#Configurar puerto 
+server:
+    port: 8099
+    servlet:
+        context-path: /msmaestriac
